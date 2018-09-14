@@ -1,0 +1,25 @@
+{
+  "name": "issuebot",
+  "version": "0.0.1",
+  "description": "For creating issues on GitHub through an API",
+  "main": "main.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.11.4"
+  },
+  "dependencies": {
+    "github-create-issue": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SociallyCompute/issuebot.git"
+  },
+  "keywords": [
+    "github",
+    "issue"
+  ],
+  "author": "Carter Landis",
+  "license": "MIT"
+}
